@@ -76,7 +76,7 @@ jobs:
            with:
               bucket: learn-gha-openid-connect
               dist-folder: ./dist
-              # bucket-region: us-east-2
+              bucket-region: eu-north-1
          - name: Output information
            run: |
               echo "Live URL: ${{ steps.deploy.outputs.website-url }}"
